@@ -1,0 +1,99 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 0;
+    max-height: 731px;
+    max-width: 440px;
+}
+div {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+
+
+.section1,
+.section2, 
+.section3 {
+            
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 5px;
+    border: none;
+}
+
+
+.section1 div, 
+.section2 div, 
+.section3 div {
+    gap: 5px;
+    flex: 1;
+}
+
+.firstParent {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+#secondParent {
+    display: flex;
+    gap: 0;
+    padding: 2px;
+}
+
+.firstParent div {
+    background-color: lightpink;
+}
+
+#secondParent div {
+    background-color: lightcoral;
+}
+
+#sec2parent2 {
+    border: none;
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sec2parent1 {
+    flex: 1;
+    padding: 0;
+    border: none;
+    display: flex;
+}
+
+#sec2parent2 div, #sec2parent1 div {
+    background-color: lightcoral;
+}
+
+.section2 {
+    padding: 0px 10px;
+
+}
+
+#left-right {
+    flex: 3;
+    background-color: lightgray;
+}
+
+#firstParent {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    background-color: lightblue;
+    gap: 2px;
+    padding: 4px;
+}
+
+.mid {
+    background-color: lightpink;
+}
