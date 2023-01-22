@@ -1,4 +1,4 @@
-# Flexbox_training
+# Flexbox training
 
 I reproduced an image with HTML & CSS.
 
